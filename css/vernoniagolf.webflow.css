@@ -82,7 +82,7 @@ p {
   display: -ms-flexbox;
   display: flex;
   width: 940px;
-  height: 40vh;
+  height: 300px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -168,7 +168,7 @@ p {
   display: flex;
   width: 100%;
   height: 15%;
-  margin-top: 20%;
+  margin-top: 155px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -182,10 +182,7 @@ p {
 }
 
 .nav-bar.mobile {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -248,7 +245,6 @@ p {
 
 .nav-block.mobile {
   display: none;
-  height: auto;
 }
 
 .name {
@@ -273,7 +269,7 @@ p {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  background-color: rgba(0, 0, 0, 0.49);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .body-container.vert {
@@ -521,9 +517,6 @@ p {
   .header-container {
     width: 728px;
   }
-  .nav-bar {
-    margin-top: 24%;
-  }
   .nav-block {
     font-size: 20px;
     line-height: 20px;
@@ -561,6 +554,9 @@ p {
     height: 30vh;
     min-width: 480px;
   }
+  .nav-bar {
+    margin-top: 94px;
+  }
   .nav-block {
     font-size: 14px;
     line-height: 14px;
@@ -590,7 +586,6 @@ p {
     min-width: 25px;
   }
   .nav-bar {
-    margin-top: 15.5vh;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -621,6 +616,9 @@ p {
     display: flex;
     width: 100%;
     font-size: 20px;
+  }
+  .nav-block.mobile._2 {
+    height: auto;
   }
   .name {
     font-size: 22px;
@@ -654,6 +652,9 @@ p {
     -ms-flex-align: center;
     align-items: center;
   }
+  .flex-h.pad {
+    margin-top: 10px;
+  }
   .pad-10 {
     margin-bottom: 10px;
   }
@@ -682,9 +683,6 @@ p {
     font-size: 50px;
     text-align: center;
     text-decoration: none;
-  }
-  .text-block-2 {
-    font-family: Montserrat, sans-serif;
   }
   .text-block-3 {
     line-height: 50px;
