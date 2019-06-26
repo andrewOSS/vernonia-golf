@@ -414,7 +414,6 @@ p {
 
 .facebook {
   width: 50px;
-  margin-left: 15px;
 }
 
 .copyright {
@@ -511,6 +510,12 @@ p {
 
 .close {
   display: none;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  max-width: none;
 }
 
 @media (max-width: 991px) {
